@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 
@@ -11,8 +12,8 @@ int main(){
     cin >> x;
     cout << fibonacci(x);
     return 0; 
-
 }
+
 long long int  fibonacci(long long int k)
 {
     if(k==0)
